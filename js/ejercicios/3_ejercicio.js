@@ -22,14 +22,14 @@ class Rectangulo{
     this.perimetro=(this.alto*2 + this.ancho*2);
   }
   MostrarPropiedades(){
-      document.write(`<br>
+      document.write(`
     RECTANGULO
     <ul>
     <li>Alto: ${this.alto}</li>
     <li>Ancho: ${this.ancho}</li>
     <li>Area: ${this.area}</li>
     <li>Perimetro: ${this.perimetro}</li>
-    </ul><br>
+    </ul>
     `);
   }
   
