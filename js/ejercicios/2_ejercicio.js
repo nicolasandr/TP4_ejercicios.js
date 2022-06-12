@@ -24,8 +24,12 @@ class Cuenta {
       this.saldo = this.saldo - MontoAExtraer; 
     }
     informar(){
-     document.write(`El titular de la cuenta es:${this.titular}<br>`);
-     document.write (`Su saldo disponible es: ${this.saldo}<br>`)
+        document.write(`
+        <ul>
+        <li>Titular: ${this.titular}</li>
+        <li>Saldo: ${this.saldo}</li>
+        </ul>
+        `);
     }
 }
 let cuentaA = new Cuenta();
